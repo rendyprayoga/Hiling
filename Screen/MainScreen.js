@@ -15,75 +15,76 @@ const Jadwal = [
   {
     id: "1",
     departureCity: "Jakarta",
-    arrivalCity: "Jepang",
+    arrivalCity: "Yogyakarta",
     airline: "Garuda Indonesia",
-    departureDate: "5 Mar 2022, 10:00",
-    tanggalKedatangan: "6 Mar 2022, 09:00",
+    departureDate: "5 Mar 2023, 10:00",
+    tanggalKedatangan: "6 Mar 2023, 12:00",
   },
   {
     id: "2",
     departureCity: "Jakarta",
-    arrivalCity: "Jepang",
+    arrivalCity: "Bali",
     airline: "Air Asia",
-    departureDate: "5 Mar 2022, 13:00",
-    tanggalKedatangan: "6 Mar 2022, 05:00",
+    departureDate: "6 Mar 2023, 14:00",
+    tanggalKedatangan: "6 Mar 2023, 16:20",
   },
   {
     id: "3",
     departureCity: "Jakarta",
-    arrivalCity: "Jepang",
-    airline: "Lion Air",
-    departureDate: "5 Mar 2022, 01:00",
-    tanggalKedatangan: "6 Mar 2022, 03:00",
+    arrivalCity: "Swiss",
+    airline: "Super Jet",
+    departureDate: "8 Mar 2023, 06:00",
+    tanggalKedatangan: "9 Mar 2023, 20:00",
   },
   {
     id: "4",
     departureCity: "Jakarta",
     arrivalCity: "Jepang",
     airline: "Sriwijaya Air",
-    departureDate: "5 Mar 2022, 07:00",
-    tanggalKedatangan: "6 Mar 2022, 12:00",
+    departureDate: "10 Mar 2023, 08:00",
+    tanggalKedatangan: "11 Mar 2023, 12:00",
   },
   {
     id: "5",
     departureCity: "Jakarta",
-    arrivalCity: "Jepang",
-    airline: "Batik Air",
-    departureDate: "5 Mar 2022, 03:00",
-    tanggalKedatangan: "6 Mar 2022, 01:30",
+    arrivalCity: "Qatar",
+    airline: "Qatar Airways",
+    departureDate: "3 Mar 2023, 03:00",
+    tanggalKedatangan: "4 Mar 2023, 01:30",
   },
   {
     id: "6",
     departureCity: "Jakarta",
-    arrivalCity: "Jepang",
+    arrivalCity: "Qatar",
     airline: "Citilink",
-    departureDate: "6 Mar 2022, 12:30",
-    tanggalKedatangan: "7 Mar 2022, 01:00",
+    departureDate: "10 Mar 2023, 12:30",
+    tanggalKedatangan: "11 Mar 2023, 01:00",
   },
   {
     id: "7",
     departureCity: "Jakarta",
-    arrivalCity: "Jepang",
-    airline: "Malindo Air",
-    departureDate: "6 Mar 2022, 09:30",
-    tanggalKedatangan: "7 Mar 2022, 10:00",
+    arrivalCity: "Qatar",
+    airline: "Garuda Indonesia",
+    departureDate: "12 Mar 2023, 13:00",
+    tanggalKedatangan: "13 Mar 2023, :06:00",
   },
   {
     id: "8",
     departureCity: "Jakarta",
-    arrivalCity: "Jepang",
+    arrivalCity: "Swiss",
     airline: "Garuda Indonesia",
-    departureDate: "6 Mar 2022, 09:00",
-    tanggalKedatangan: "7 Mar 2022, 01:30",
+    departureDate: "10 Mar 2023, 14:00",
+    tanggalKedatangan: "11 Mar 2023, 08:15",
   },
   {
     id: "9",
     departureCity: "Jakarta",
-    arrivalCity: "Jepang",
-    airline: "AirAsia",
-    departureDate: "7 Mar 2022, 01:00",
-    tanggalKedatangan: "7 Mar 2022, 24:00",
+    arrivalCity: "Swiss",
+    airline: "Batik Airways",
+    departureDate: "11 Mar 2023, 01:00",
+    tanggalKedatangan: "12 Mar 2023, 24:00",
   },
+
 ];
 
 const MainScreen = ({ navigation }) => {
@@ -121,7 +122,7 @@ const MainScreen = ({ navigation }) => {
           >
             <AntDesign name="arrowleft" size={30} color="white" />
           </TouchableOpacity>
-          <Text style={styles.title}>BerangkatIn</Text>
+          <Text style={styles.title}>Hiling id</Text>
           <Feather name="user" size={30} color="white" />
         </View>
         <Text style={styles.subTitle}>Hasil Pencarian Penerbangan</Text>
@@ -141,12 +142,12 @@ const MainScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#00FFFF",
+    backgroundColor: "#0088ff",
     marginTop: 20,
   },
   header: {
     width: "100%",
-    backgroundColor: "#00FFFF",
+    backgroundColor: "#0088ff",
     padding: 20,
     marginBottom: 10,
   },
